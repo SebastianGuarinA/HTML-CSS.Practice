@@ -1,12 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Formularios HTML</title>
 </head>
 <body>
-    
+    <form>
+        <label for="Nombre">Nombre</label>
+        <input id="Nombre" type="text" required><br>
+        <label for="Edad">Edad</label>
+        <input id="Edad" type="number" min="0" max="150" required><br>
+        <label for="Frase favorita">Frase favorita</label>
+        <input id="Frase favorita" type="text"><br>
+        <button type="submit">Enviar</button>
+        <button type="reset">Resetear</button>
+    </form>
 </body>
 </html>
